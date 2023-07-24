@@ -3,15 +3,15 @@ POST http://localhost:3000/advertising
 Content-Type: application/json
 
 {
-  "title": "Naushnik",
-  "category_id": 1,
-  "description": "Quloqqa tiqing, dunyoni unuting",
-  "store_name": "Uzum market",
-  "start_price": 50000,
-  "discount": 15,
-  "promo_code": "quloq",
-  "url": "https://uzum.uz/ru/product/Bolshie-naushniki-besprovodnye-250869?skuid=376108",
-  "img": "https://images.uzum.uz/cfb3a3ivtie1lhbhno4g/original.jpg"
+  "title": "",
+  "category_id": ,
+  "description": "",
+  "store_name": " ",
+  "start_price": ,
+  "discount": ,
+  "promo_code": "",
+  "url": "",
+  "img": ""
 }
 
 
@@ -20,19 +20,26 @@ GET http://localhost:3000/advertising
 
 
 ### Show advertising
-GET http://localhost:3000/advertising/1
+GET http://localhost:3000/advertising/:id
 
 
 
 ### Edit advertising
-PATCH http://localhost:3000/advertising/1
+PATCH http://localhost:3000/advertising/:id
 Content-Type: application/json
 
 {
-  "start_price": 70000,
-  "discount": 90
+  "title": "",
+  "category_id": ,
+  "description": "",
+  "store_name": " ",
+  "start_price": ,
+  "discount": ,
+  "promo_code": "",
+  "url": "",
+  "img": ""
 }
 
 
 ### Delete advertising
-DELETE http://localhost:3000/advertising/1
+DELETE http://localhost:3000/advertising/:id

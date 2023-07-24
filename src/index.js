@@ -14,7 +14,7 @@ app.use(advertisingRoute);
 
 app.use(errorHandler);
 
-db.sync({ force: true, logging: false })
+db.sync({ force: false, logging: false })
   .then(() => {
     console.log('DB ga ulandi');
   })

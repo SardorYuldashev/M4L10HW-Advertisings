@@ -46,8 +46,7 @@ const Advertising = db.define('Advertising', {
   },
 }, {
   tableName: 'advertisings',
-  createdAt: 'created_at',
-  updatedAt: 'updated_at'
+  timestamps: false
 });
 
 Advertising.belongsTo(Category, {

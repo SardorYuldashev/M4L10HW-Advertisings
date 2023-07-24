@@ -46,10 +46,13 @@ module.exports = {
         type: DataTypes.STRING,
         allowNull: true,
       },
+      category_id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
     }, {
       tableName: 'advertisings',
-      createdAt: 'created_at',
-      updatedAt: 'updated_at'
+      timestamps: false,
     });
   },
 
