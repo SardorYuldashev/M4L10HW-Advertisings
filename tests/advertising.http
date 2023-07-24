@@ -3,7 +3,7 @@ POST http://localhost:3000/advertising
 Content-Type: application/json
 
 {
-  "title": "Telefon",
+  "title": "Naushnik",
   "category_id": 1,
   "description": "Quloqqa tiqing, dunyoni unuting",
   "store_name": "Uzum market",
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 
 ### List advertisings
-GET http://localhost:3000/advertising?page[offset=2]
+GET http://localhost:3000/advertising
 
 
 ### Show advertising
