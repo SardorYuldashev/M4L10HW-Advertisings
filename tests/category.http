@@ -1,0 +1,28 @@
+### Post category
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Texnika"
+}
+
+
+### List categories
+GET http://localhost:3000/category
+
+
+### Show category
+GET http://localhost:3000/category/1
+
+
+### Edit category
+PATCH http://localhost:3000/category/1
+Content-Type: application/json
+
+{
+  "name": "Kalla"
+}
+
+
+### Delete category
+DELETE http://localhost:3000/category/1
