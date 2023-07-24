@@ -8,4 +8,8 @@ Xaridorlar esa o'ziga kerak maxsulotni qaysi do'kondan arzonroqqa olishi mumkinl
 ## Kategoriyalar uchun==
 |Method|url|description|
 |---|---|---|
-|POST|/category|Yangi kategoriy yaratish|
+| POST | /category | Yangi kategoriy yaratish |
+| GET | /category | Kategoriyalar ro'yxatini olish |
+| GET | /category/:id | Bitta kategoriya ma'lumotini olish |
+| PATCH | /category/:id | Kategoriyani tahrirlash |
+| DELETE | /category/:id | Kategoriyani o'chirish |
