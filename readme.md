@@ -1,11 +1,11 @@
-# ADVERTISINGS API
+<h1 style="text-align: center">ADVERTISINGS API</h1>
 Turli xil internet do'konlarda amal qilayotgan chegirmalarni ko'rsatib boruvchi API.
 
 Bunda sotuvchilar o'z maxsulotlarini qaysi do'konda qancha chegirma bilan sotayotganini e'lon qilishadi va promo-kodlarni ko'rsatadi.
 
 Xaridorlar esa o'ziga kerak maxsulotni qaysi do'kondan arzonroqqa olishi mumkinligini bilib oladi.
-<div style="text-align: center">
-## Kategoriyalar uchun
+
+<h2 style="text-align: center">Kategoriyalar uchun</h2>
 |Method|url|description|
 |---|---|---|
 | POST | /category | Yangi kategoriy yaratish |
@@ -13,4 +13,3 @@ Xaridorlar esa o'ziga kerak maxsulotni qaysi do'kondan arzonroqqa olishi mumkinl
 | GET | /category/:id | Bitta kategoriya ma'lumotini olish |
 | PATCH | /category/:id | Kategoriyani tahrirlash |
 | DELETE | /category/:id | Kategoriyani o'chirish |
-</div>
