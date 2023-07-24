@@ -1,4 +1,4 @@
-#ADVERTISINGS API
+# ADVERTISINGS API
 
 Turli xil internet do'konlarda amal qilayotgan chegirmalarni ko'rsatib boruvchi API.
 
@@ -15,3 +15,13 @@ Xaridorlar esa o'ziga kerak maxsulotni qaysi do'kondan arzonroqqa olishi mumkinl
 | GET | /category/:id | Bitta kategoriya ma'lumotini olish |
 | PATCH | /category/:id | Kategoriyani tahrirlash |
 | DELETE | /category/:id | Kategoriyani o'chirish |
+
+## Reklamalar uchun
+
+|Method|url|description|
+|---|---|---|
+| POST | /advertising | Yangi reklama yaratish |
+| GET | /advertising | Reklamar ro'yxatini olish |
+| GET | /advertising/:id | Bitta reklama ma'lumotini olish |
+| PATCH | /advertising/:id | Reklamani tahrirlash |
+| DELETE | /advertising/:id | Reklamani o'chirish |
